@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nishok",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5188"],
+      "port": 5188,
+      "autoPort": false
+    },
+    {
+      "name": "nishok-alt",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".claude/serve.js", "5189"],
+      "port": 5189,
+      "autoPort": false
+    }
+  ]
+}
